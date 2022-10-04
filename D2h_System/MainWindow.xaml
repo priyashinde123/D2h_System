@@ -1,0 +1,27 @@
+﻿<Window x:Class="D2h_System.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:D2h_System"
+        mc:Ignorable="d"
+        Background="DodgerBlue"
+        Title="MainWindow" Height="450" Width="800" Closed="Window_Closed">
+    <Window.Resources>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="White"></Setter>
+
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid>
+            
+        </Grid>
+
+        <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" FontSize="30" TextWrapping="Wrap"  Text="D2h Syestem" VerticalAlignment="Top"/>
+        <Button Content="Customer Login" Click="CustomerLogin"  Height="50" Margin="239,106,257,278" />
+        <Button Content="Agent Login" Height="50"  Click="AgentLogin" Margin="239,217,257,167"/>
+
+    </Grid>
+</Window>
